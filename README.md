@@ -6,8 +6,11 @@ localhost music manager that lets you search YouTube, download tracks as MP3s, o
 
 1. **Install Node.js** (if you don't have it):
    ```bash
+   # macOS/Linux
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
    nvm install node
+
+   # Windows — download the installer from https://nodejs.org
    ```
 
 2. **Install ffmpeg** (needed for audio conversion):
@@ -17,6 +20,9 @@ localhost music manager that lets you search YouTube, download tracks as MP3s, o
 
    # Ubuntu/Debian
    sudo apt install ffmpeg
+
+   # Windows
+   winget install Gyan.FFmpeg
    ```
 
 3. **Install Python dependencies** (yt-dlp):
